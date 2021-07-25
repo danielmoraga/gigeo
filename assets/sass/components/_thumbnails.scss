@@ -1,0 +1,18 @@
+.profile__container__autor__thumbnail{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+}
+.thumbnail{
+    max-width: 80px !important;
+}
+@media(min-width:576px){
+    .profile__container__autor__thumbnail{
+        width: 50px;
+        height: 50px;
+    }
+    .thumbnail{
+        max-width: 60px !important;
+    }
+}

@@ -1,0 +1,19 @@
+.principal___title{
+    margin: 2rem 0;
+}
+.principal__video-container__item__title{
+    margin-top: 1rem;
+}
+.principal___title{
+    text-align: center;
+}
+
+@media(min-width:576px){
+    .principal__video-container__item__image{
+        height: 8em;
+        overflow: hidden;
+    }
+    .principal___title{
+        text-align: left;
+    }
+}
